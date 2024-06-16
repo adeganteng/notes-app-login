@@ -14,3 +14,13 @@
     overflow-x: hidden;
   }
 }
+
+@layer components{
+  .input-box{
+    @apply w-full text-sm py-3 px-5 bg-transparent border-[1.5px] rounded mb-4 outline-none;
+
+  }
+  .btn-primary{
+    @apply w-full text-sm bg-primary text-white p-2 rounded my-1 hover:bg-blue-600;
+  }
+}
